@@ -4,7 +4,13 @@ from pathlib import Path
 from string import Template
 from typing import Optional
 
-import streamlit as st
+try:
+    import streamlit as st
+except ModuleNotFoundError:
+    import sys
+    sys.stderr.write("\n[ERROR] The 'streamlit' package is not installed. Please install it with 'pip install streamlit'.\n")
+    st = None
+
 import streamlit.components.v1 as components
 
 st.set_page_config(page_title="Snow Liwa", layout="wide")
