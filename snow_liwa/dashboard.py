@@ -1,7 +1,14 @@
 import streamlit as st
 from pathlib import Path
 import pandas as pd
-from app import load_bookings, save_bookings, sync_payments_from_ziina
+from app import (
+    load_bookings,
+    save_bookings,
+    sync_payments_from_ziina,
+    ensure_ui_config,
+    load_ui_config,
+    render_settings_panel,
+)
 
 ADMIN_PASSWORD = "snowadmin123"  # You can change this
 
@@ -59,3 +66,13 @@ st.dataframe(
     df.sort_values("created_at", ascending=False).head(25),
     use_container_width=True,
 )
+
+st.divider()
+st.subheader("Landing page settings")
+st.caption(
+    "هذه الإعدادات تغيّر فقط الواجهة الخاصة بصفحة SNOW LIWA (خلفيات، ألوان، نصوص، خطوط) بدون أي تأثير على منطق الحجز أو بيانات Ziina."
+)
+
+ensure_ui_config()
+ui_config = load_ui_config()
+render_settings_panel(ui_config)

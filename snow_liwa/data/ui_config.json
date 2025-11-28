@@ -1,0 +1,126 @@
+{
+  "background": {
+    "page_style": "image",
+    "solid_color": "#c2c8d2",
+    "gradient": {
+      "start": "#c2cdde",
+      "end": "#d6c8c8",
+      "angle": 360
+    },
+    "image_name": "bg-snow-liwa-bg-20251128020505.png",
+    "overlay_opacity": 48,
+    "is_fixed": true,
+    "blur": 10,
+    "brightness": 73,
+    "contrast": 68
+  },
+  "hero": {
+    "background_type": "image",
+    "image_name": "hero-1121-page-0001-20251128020505.jpg",
+    "solid_color": "#943a3a",
+    "height": "medium",
+    "overlay_opacity": 51
+  },
+  "sections": {
+    "background_type": "image",
+    "image_name": "hero-1121-page-0001-20251128020119.jpg",
+    "solid_color": "rgba(255, 255, 255, 0.94)",
+    "overlay_opacity": 7
+  },
+  "theme": {
+    "primary_color": "#000000",
+    "secondary_color": "#000000",
+    "card_background": "#000000",
+    "card_border": "#000000",
+    "card_radius": "large",
+    "shadow": "strong",
+    "mode": "light",
+    "section_background": "#d8e0ca",
+    "field_background": "#f7f9fd",
+    "field_border": "#d2dbe8",
+    "field_text": "#87a9d4"
+  },
+  "typography": {
+    "heading_font": "dfgbfdhb",
+    "body_font": "'Inter', 'SF Pro Display', sans-serif",
+    "arabic_font": "'Dubai', 'Cairo', sans-serif",
+    "scale": "large"
+  },
+  "language": {
+    "direction": "ltr",
+    "form_language": "bilingual"
+  },
+  "content": {
+    "nav": {
+      "name": "NAME",
+      "about": "ABOUT",
+      "activities": "ACTIVITIES",
+      "invites": "INVITES",
+      "contact": "CONTACT"
+    },
+    "cards": {
+      "activities": {
+        "title": "ACTIVITIES",
+        "description": "Snow play, warm drinks, chocolate fountain, and winter vibes for friends & family."
+      },
+      "events": {
+        "title": "EVENTS",
+        "description": "Group bookings, private sessions, and curated winter moments at our secret Liwa spot."
+      },
+      "contact": {
+        "title": "CONTACT",
+        "description": "Reach us on WhatsApp or Instagram snowliwa. Exact location shared after booking."
+      }
+    },
+    "booking": {
+      "title": "\ud83c\udf9f\ufe0f Book your ticket",
+      "price_text": "Entrance ticket: 175 AED per person.",
+      "button_text": "Proceed to payment with Ziina"
+    }
+  },
+  "icons": {
+    "enabled": false,
+    "size": "medium",
+    "animation": "medium"
+  },
+  "form": {
+    "show_notes": true,
+    "label_position": "top",
+    "button_width": "auto",
+    "show_ticket_icon": false,
+    "success_message": "\u2705 \u062a\u0645 \u0625\u0646\u0634\u0627\u0621 \u0627\u0644\u062d\u062c\u0632! \u0633\u0646\u0631\u0633\u0644 \u0644\u0643 \u0627\u0644\u062a\u0641\u0627\u0635\u064a\u0644 \u0628\u0639\u062f \u0627\u0644\u062f\u0641\u0639."
+  },
+  "effects": {
+    "snow": {
+      "enabled": true,
+      "flakes": 80,
+      "size": "small",
+      "speed": "slow",
+      "symbol": "flake"
+    }
+  },
+  "branding": {
+    "show_logo": false,
+    "logo_image": null,
+    "logo_width": 140,
+    "tagline_en": "SNOW LIWA",
+    "tagline_ar": "\u062b\u0644\u062c \u0644\u064a\u0648\u0627"
+  },
+  "social": {
+    "whatsapp_number": "050 113 8781",
+    "instagram_handle": "snowliwa",
+    "instagram_url": "https://instagram.com/snowliwa"
+  },
+  "security": {
+    "admin_pin": "1234"
+  },
+  "stickers": {
+    "contact_collage": {
+      "enabled": false
+    },
+    "hero": {
+      "enabled": true,
+      "images": []
+    }
+  }
+}
